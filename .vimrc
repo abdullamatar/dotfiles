@@ -17,7 +17,7 @@ set ttyfast
 let mapleader = " "
 
 inoremap jk <Esc>
-noremap <leader>w :wq<CR>
+noremap <leader>w :w<CR>
 
 "6 represents the stable bar in insert mode, while 2 reps the stableblock in anything but insert mode
 let &t_SI = "\e[6 q"
